@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Tokollo16
 - 👀 I’m interested in learning new ways to evolve
 - 🌱 I’m currently learning C++ lanuage
-- 📫 How to reach me insta: @don_chiloane
+- 📫 How to reach me insta: 
 - 😄 Pronouns: he
 - ⚡ Fun fact: Started being naughty with tech since 2006
 
