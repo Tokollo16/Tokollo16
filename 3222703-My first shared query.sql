@@ -1,4 +1,4 @@
-ALTER TABLE patientvist MODIFY c
+ALTER TABLE patientvist MODIFY COL
 /* #########################################################                                */
 /* patientid,     comments,                                           visitdate,  diagnosis */
 /* ---------------------------------------------------------------------------------------- */
