@@ -39,15 +39,15 @@ INSERT INTO Treatcost VALUES
 INSERT INTO Treatcost VALUES                                                                 
 ('IVN40','2016-01-01',300,200);
 INSERT INTO Treatcost VALUES                                                                 
-('STRMV','01-JAN-16',200,150);                                                                 
+('STRMV','2016-01-01',200,150);                                                                 
 INSERT INTO Treatcost VALUES                                                                 
-('PHYSI','01-JAN-16',350,250);
+('PHYSI','2016-01-01',350,250);
 INSERT INTO Treatcost VALUES                                                                 
-('CTSCN','01-JAN-16',2400,1800);
+('CTSCN','2016-01-01',2400,1800);
 INSERT INTO Treatcost VALUES                                                                 
-('MRSCN','01-JAN-16',6500,4000);
+('MRSCN','2016-01-01',6500,4000);
 INSERT INTO Treatcost VALUES                                                                 
-('ECG45','01-JAN-16',900,500);
+('ECG45','2016-01-01',900,500);
 
 /* ######################################################### */
 INSERT INTO PRESCRIBED VALUES
