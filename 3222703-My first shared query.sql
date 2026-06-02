@@ -21,9 +21,9 @@ INSERT INTO PATIENTVISIT VALUES
 INSERT INTO PATIENTVISIT VALUES
 ('7809124123456','FREQUENT BLEEDING, FATIQUE, FEVER',                '2016-01-31','LEUKEMIA');
 INSERT INTO PATIENTVISIT VALUES                                                                   
-('8110102467081','CHEST PAIN, FATIQUE, NIGHT SWEAT',                 '21-FEB-16','POSSIBLE STROKE ');
+('8110102467081','CHEST PAIN, FATIQUE, NIGHT SWEAT',                 '2016-02-21','POSSIBLE STROKE ');
 INSERT INTO PATIENTVISIT VALUES
-('7809124123456','RUNNING STOMACH',                                  '25-FEB-16','DIAREE');
+('7809124123456','RUNNING STOMACH',                                  '2016-01-25','DIAREE');
 /* ######################################################### */
 INSERT INTO PATIENTHISTORY VALUES
 ('7911020534084','TONSI','05-JAN-16');                                                                       
