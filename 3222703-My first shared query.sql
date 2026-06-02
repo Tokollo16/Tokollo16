@@ -29,11 +29,11 @@ INSERT INTO Treatcost VALUES
 INSERT INTO Treatcost VALUES                                                                 
 ('IVN40','2016-07-01',250,175);
 INSERT INTO Treatcost VALUES                                                                 
-('CSTTN','01-JUL-2015-07',1800,1400);
+('CSTTN','2015-07-01',1800,1400);
 INSERT INTO Treatcost VALUES                                                                 
-('FM001','01-JAN-16',480,360);                                                                 
+('FM001','2016-01-01',480,360);                                                                 
 INSERT INTO Treatcost VALUES
-('STRMV','01-DEC-15',150,100);
+('STRMV','01-DEC-2015',150,100);
 INSERT INTO Treatcost VALUES                                                                 
 ('STTHS','01-JAN-16',225,175);
 INSERT INTO Treatcost VALUES                                                                 
