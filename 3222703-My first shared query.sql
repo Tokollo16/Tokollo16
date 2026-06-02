@@ -111,9 +111,9 @@ INSERT INTO patienttreatment VALUES
 insert into payments values
 ('5106137845084','2015-12-15','MEDFUND','BANK TRANSFER',NULL,        '000-346',    425);
 insert into payments values
-('5106137845084','12-JUL-15','MEDFUND','BANK TRANSFER',NULL,        '000-346',    300);
+('5106137845084','2015-07-12','MEDFUND','BANK TRANSFER',NULL,        '000-346',    300);
 insert into payments values
-('5106137845084','12-JAN-16','MEDFUND','BANK TRANSFER',NULL,        '000-346',    500);
+('5106137845084','12-JAN-2016','MEDFUND','BANK TRANSFER',NULL,        '000-346',    500);
 insert into payments values 
 ('7412087432082','14-JAN-16','MEDFUND','BANK TRANSFER',NULL,        '000-213',    450);
 insert into payments values
