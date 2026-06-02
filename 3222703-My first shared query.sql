@@ -73,17 +73,17 @@ INSERT INTO PRESCRIBED VALUES
 INSERT INTO patientmedicine VALUES
 ('7911020534084','2016-01-05','AMO50');                                                                       
 INSERT INTO patientmedicine VALUES
-('7609097812034','13-2016-01','ULTRA');                                                                       
+('7609097812034','2016-01-13','ULTRA');                                                                       
 INSERT INTO patientmedicine VALUES
-('7809124123456','25-FEB-16','IMOD2');
+('7809124123456','201','IMOD2');
 INSERT INTO patientmedicine VALUES
 ('7609097812034','12-FEB-16','PROBI');
 INSERT INTO patientmedicine VALUES
-('7809124123456','25-FEB-16','PROBI');
+('7809124123456','201','PROBI');
 INSERT INTO patientmedicine VALUES
-('7609097812034','13-2016-01','CAT50');
+('7609097812034','2016-01-13','CAT50');
 INSERT INTO patientmedicine VALUES
-('7609097812034','13-2016-01','DEGOR');
+('7609097812034','2016-01-13','DEGOR');
 
 /* ######################################################### */
 INSERT INTO CONTRA VALUES
