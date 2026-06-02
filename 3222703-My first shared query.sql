@@ -109,7 +109,7 @@ INSERT INTO patienttreatment VALUES
 /* respaccount    paydate     method    paytype        chequenumber  banknumber  amount */
 /* ------------------------------------------------------------------------------------ */
 insert into payments values
-('5106137845084','15-DEC-15','MEDFUND','BANK TRANSFER',NULL,        '000-346',    425);
+('5106137845084','2015-12-15','MEDFUND','BANK TRANSFER',NULL,        '000-346',    425);
 insert into payments values
 ('5106137845084','12-JUL-15','MEDFUND','BANK TRANSFER',NULL,        '000-346',    300);
 insert into payments values
