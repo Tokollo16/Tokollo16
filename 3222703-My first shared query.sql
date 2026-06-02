@@ -1,6 +1,6 @@
 /* ######################################################### */
 INSERT INTO appointment VALUES
-('8106070534083','7309185346084','Full medical',   '05-JAN-16','N');
+('8106070534083','7309185346084','Full medical',   '2016-01','N');
 INSERT INTO appointment VALUES                                        
 ('7809124123456','7309185346084','Consultation',   '18-JAN-16','N');
 INSERT INTO appointment VALUES                                        
