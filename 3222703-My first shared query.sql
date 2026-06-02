@@ -22,35 +22,10 @@ INSERT INTO appointment VALUES
 INSERT INTO appointment VALUES
 ('9001085607084','7602213456112','Remove stitches','2016-02-12','Y');
 */
-/* ######################################################### */
-INSERT INTO TREATMENT VALUES
-('FM001','FULL MEDICAL');
-INSERT INTO TREATMENT VALUES                                                                                  
-('CSTTN','CONSULTATION');
-INSERT INTO TREATMENT VALUES                                                                                  
-('IVN40','INJECTION - VOLTAREN 40');
-INSERT INTO TREATMENT VALUES                                                                       
-('IVN20','INJECTION - VOLTAREN 20');
-INSERT INTO TREATMENT VALUES                                                                       
-('PHA20','PHARMAPRESS - 20mg');
-INSERT INTO TREATMENT VALUES                                                                       
-('PEN10','PENDINE - 10mg');
-INSERT INTO TREATMENT VALUES                                                                       
-('STRMV','REMOVE STITCHES');                                                                               
-INSERT INTO TREATMENT VALUES
-('CTSCN','PERFORM CT SCAN');
-INSERT INTO TREATMENT VALUES
-('ECG45','PERFORM ECG TEST');
-INSERT INTO TREATMENT VALUES
-('PHYSI','PHYSIOTHERAPY');
-INSERT INTO TREATMENT VALUES
-('MRSCN','PERFORM MR SCAN');    
-INSERT INTO TREATMENT VALUES
-('STTHS','INSERT STITCHES');                                                       
 
 /* ######################################################### */
 INSERT INTO Treatcost VALUES
-('IVN40','01-JUL-15',225,150);
+('IVN40','2001-JUL-15',225,150);
 INSERT INTO Treatcost VALUES                                                                 
 ('IVN40','01-JUL-16',250,175);
 INSERT INTO Treatcost VALUES                                                                 
