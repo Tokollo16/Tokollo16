@@ -1,16 +1,210 @@
-INSERT INTO PATIENTHISTORY VALUES
-('7911020534084','TONSI','2016-01-05');                                                                       
-INSERT INTO PATIENTHISTORY VALUES
-('7609097812034','ASTHM','2016-01-13');
-INSERT INTO PATIENTHISTORY VALUES
-('8106070534083','BRONC','2016-01-05');
-INSERT INTO PATIENTHISTORY VALUES
-('8110102467081','ASTHM','2015-12-12');
-INSERT INTO PATIENTHISTORY VALUES
-('7609097812034','TUBER','2016-02-12');
-INSERT INTO PATIENTHISTORY VALUES
-('8110102467081','BRONC','2016-03-05');
-INSERT INTO PATIENTHISTORY VALUES
-('7809124123456','LEUKE','2016-01-31');
-INSERT INTO PATIENTHISTORY VALUES
-('8110102467081','CARDI','2016-02-21');
+INSERT INTO allergylookup VALUES
+('IODINE');                                                                                              
+INSERT INTO allergylookup VALUES
+('BEE STING');                                                                                           
+INSERT INTO allergylookup VALUES
+('ASPIRIN');                                                                                             
+INSERT INTO allergylookup VALUES
+('PENICYLLIN');
+INSERT INTO allergylookup VALUES
+('LACTOSE');                                                                                             
+INSERT INTO allergylookup VALUES
+('POLLEN');
+INSERT INTO allergylookup VALUES
+('DUST');
+INSERT INTO allergylookup VALUES
+('LATEX');
+INSERT INTO allergylookup VALUES
+('PET''s HAIR');
+
+/* ######################################################### */
+INSERT INTO PATIENTALLERGY VALUES
+('7911020534084','ASPIRIN');                                                                               
+INSERT INTO PATIENTALLERGY VALUES
+('7911020534084','BEE STING');                                                                             
+INSERT INTO PATIENTALLERGY VALUES
+('8110102467081','PET''s HAIR');
+INSERT INTO PATIENTALLERGY VALUES
+('7609097812034','PET''s HAIR');
+INSERT INTO PATIENTALLERGY VALUES
+('7609097812034','POLLEN');
+INSERT INTO PATIENTALLERGY VALUES
+('7609097812034','DUST');
+INSERT INTO PATIENTALLERGY VALUES
+('7911020534084','PENICYLLIN');            
+
+/* ######################################################### */
+INSERT INTO APPOINTTYPES VALUES
+('Consultation',15);
+INSERT INTO appointTYPES VALUES                                                            
+('Remove stitches',15);                                                            
+INSERT INTO appointTYPES VALUES
+('Full medical',30); 
+INSERT INTO appointTYPES VALUES
+('Remove Cast',15); 
+INSERT INTO appointTYPES VALUES
+('ECG',45); 
+INSERT INTO appointTYPES VALUES
+('CT scan',30);                                                            
+INSERT INTO appointTYPES VALUES
+('MR scan',60); 
+INSERT INTO appointTYPES VALUES
+('Blood tests',15); 
+INSERT INTO appointTYPES VALUES
+('Physiotherapy',60); 
+
+/* ######################################################### */
+INSERT INTO appointment VALUES
+('8106070534083','7309185346084','Full medical',   '05-JAN-16','N');
+INSERT INTO appointment VALUES                                        
+('7809124123456','7309185346084','Consultation',   '18-JAN-16','N');
+INSERT INTO appointment VALUES                                        
+('8110102467081','7101136748073','Consultation',   '08-OCT-15','N');
+INSERT INTO appointment VALUES                                        
+('8110102467081','7101136748073','Full medical',   '17-NOV-15','N');                                        
+INSERT INTO appointment VALUES
+('7809124123456','7309185346084','Remove stitches','12-JAN-16','Y');                                        
+INSERT INTO appointment VALUES
+('8110102467081','7101136748073','Blood tests',    '12-DEC-15','N');
+INSERT INTO appointment VALUES
+('7609097812034','7309185346084','Consultation',   '12-FEB-16','N');
+INSERT INTO appointment VALUES                                                                   
+('8110102467081','7101136748073','ECG',            '21-FEB-16','N');
+INSERT INTO appointment VALUES
+('8110102467081','7101136748073','MR scan',        '02-MAR-16','N');
+INSERT INTO appointment VALUES
+('7809124123456','5302140156083','Consultation',   '11-NOV-15','N');
+INSERT INTO appointment VALUES
+('9001085607084','7602213456112','Remove stitches','12-FEB-16','Y');
+
+/* ######################################################### */
+INSERT INTO TREATMENT VALUES
+('FM001','FULL MEDICAL');
+INSERT INTO TREATMENT VALUES                                                                                  
+('CSTTN','CONSULTATION');
+INSERT INTO TREATMENT VALUES                                                                                  
+('IVN40','INJECTION - VOLTAREN 40');
+INSERT INTO TREATMENT VALUES                                                                       
+('IVN20','INJECTION - VOLTAREN 20');
+INSERT INTO TREATMENT VALUES                                                                       
+('PHA20','PHARMAPRESS - 20mg');
+INSERT INTO TREATMENT VALUES                                                                       
+('PEN10','PENDINE - 10mg');
+INSERT INTO TREATMENT VALUES                                                                       
+('STRMV','REMOVE STITCHES');                                                                               
+INSERT INTO TREATMENT VALUES
+('CTSCN','PERFORM CT SCAN');
+INSERT INTO TREATMENT VALUES
+('ECG45','PERFORM ECG TEST');
+INSERT INTO TREATMENT VALUES
+('PHYSI','PHYSIOTHERAPY');
+INSERT INTO TREATMENT VALUES
+('MRSCN','PERFORM MR SCAN');    
+INSERT INTO TREATMENT VALUES
+('STTHS','INSERT STITCHES');                                                       
+
+/* ######################################################### */
+INSERT INTO Treatcost VALUES
+('IVN40','01-JUL-15',225,150);
+INSERT INTO Treatcost VALUES                                                                 
+('IVN40','01-JUL-16',250,175);
+INSERT INTO Treatcost VALUES                                                                 
+('CSTTN','01-JUL-15',1800,1400);
+INSERT INTO Treatcost VALUES                                                                 
+('FM001','01-JAN-16',480,360);                                                                 
+INSERT INTO Treatcost VALUES
+('STRMV','01-DEC-15',150,100);
+INSERT INTO Treatcost VALUES                                                                 
+('STTHS','01-JAN-16',225,175);
+INSERT INTO Treatcost VALUES                                                                 
+('IVN40','01-JAN-16',300,200);
+INSERT INTO Treatcost VALUES                                                                 
+('STRMV','01-JAN-16',200,150);                                                                 
+INSERT INTO Treatcost VALUES                                                                 
+('PHYSI','01-JAN-16',350,250);
+INSERT INTO Treatcost VALUES                                                                 
+('CTSCN','01-JAN-16',2400,1800);
+INSERT INTO Treatcost VALUES                                                                 
+('MRSCN','01-JAN-16',6500,4000);
+INSERT INTO Treatcost VALUES                                                                 
+('ECG45','01-JAN-16',900,500);
+
+/* ######################################################### */
+INSERT INTO PRESCRIBED VALUES
+('AMO50','AMOXICICILLIN 50 MG');                                                                           
+INSERT INTO PRESCRIBED VALUES
+('PEN10','PENDINE 10MG');
+INSERT INTO PRESCRIBED VALUES
+('PHA20','PHARMAPRESS 20MG');
+INSERT INTO PRESCRIBED VALUES
+('AVA40','AVASPOR 40MG');
+INSERT INTO PRESCRIBED VALUES
+('ULTRA','ULTRACET');
+INSERT INTO PRESCRIBED VALUES
+('DEGOR','DEGORAN');
+INSERT INTO PRESCRIBED VALUES
+('IMOD2','IMODIUM 2MG');
+INSERT INTO PRESCRIBED VALUES
+('CAT50','CATAFAST 50MG');
+INSERT INTO PRESCRIBED VALUES
+('PROBI','PROBIFLORA');
+
+/* ######################################################### */
+INSERT INTO patientmedicine VALUES
+('7911020534084','05-JAN-16','AMO50');                                                                       
+INSERT INTO patientmedicine VALUES
+('7609097812034','13-JAN-16','ULTRA');                                                                       
+INSERT INTO patientmedicine VALUES
+('7809124123456','25-FEB-16','IMOD2');
+INSERT INTO patientmedicine VALUES
+('7609097812034','12-FEB-16','PROBI');
+INSERT INTO patientmedicine VALUES
+('7809124123456','25-FEB-16','PROBI');
+INSERT INTO patientmedicine VALUES
+('7609097812034','13-JAN-16','CAT50');
+INSERT INTO patientmedicine VALUES
+('7609097812034','13-JAN-16','DEGOR');
+
+/* ######################################################### */
+INSERT INTO CONTRA VALUES
+('AMO50','PENICYLLIN');                                                                                    
+
+/* ######################################################### */
+/* treatid, patientid,    treatmentdate,doctorid             */
+/* --------------------------------------------------------- */
+INSERT INTO patienttreatment VALUES
+('FM001','7911020534084','05-JAN-16','5302140156083'); 
+INSERT INTO patienttreatment VALUES
+('CSTTN','8106070534083','13-JAN-16','7309185346084');
+INSERT INTO patienttreatment VALUES
+('IVN40','7911020534084','05-JAN-16','5302140156083');
+INSERT INTO patienttreatment VALUES
+('CSTTN','7609097812034','13-FEB-16','5302140156083'); 
+INSERT INTO patienttreatment VALUES
+('STRMV','7911020534084','05-JAN-16','5302140156083');
+INSERT INTO patienttreatment VALUES
+('CSTTN','7503305057803','13-JAN-16','5302140156083');
+
+/* #########################################################                            */
+/* respaccount    paydate     method    paytype        chequenumber  banknumber  amount */
+/* ------------------------------------------------------------------------------------ */
+insert into payments values
+('5106137845084','15-DEC-15','MEDFUND','BANK TRANSFER',NULL,        '000-346',    425);
+insert into payments values
+('5106137845084','12-JUL-15','MEDFUND','BANK TRANSFER',NULL,        '000-346',    300);
+insert into payments values
+('5106137845084','12-JAN-16','MEDFUND','BANK TRANSFER',NULL,        '000-346',    500);
+insert into payments values 
+('7412087432082','14-JAN-16','MEDFUND','BANK TRANSFER',NULL,        '000-213',    450);
+insert into payments values
+('7412087432082','17-JUN-15','MEDFUND','BANK TRANSFER',NULL,        '000-213',    275);
+insert into payments values
+('7412087432082','17-FEB-16','MEDFUND','BANK TRANSFER',NULL,        '000-213',    450);
+insert into payments values
+('6806035034074','14-FEB-16','MEDFUND','BANK TRANSFER',NULL,        '000-213',    250);
+insert into payments values
+('6806035034074','01-MAR-16','PRIVATE','CHEQUE',      '244',        '000-213',    250);
+insert into payments values
+('6806035034074','19-AUG-15','PRIVATE','CHEQUE',      '275',        '000-213',    325);
+insert into payments values   
+('3806070156084','14-AUG-15','PRIVATE','CASH',         null,         null,        350);
