@@ -27,9 +27,9 @@ INSERT INTO appointment VALUES
 INSERT INTO Treatcost VALUES
 ('IVN40','2015-07-01',225,150);
 INSERT INTO Treatcost VALUES                                                                 
-('IVN40','2016-07-0101-JUL-16',250,175);
+('IVN40','2016-07-01',250,175);
 INSERT INTO Treatcost VALUES                                                                 
-('CSTTN','01-JUL-15',1800,1400);
+('CSTTN','01-JUL-2015-07',1800,1400);
 INSERT INTO Treatcost VALUES                                                                 
 ('FM001','01-JAN-16',480,360);                                                                 
 INSERT INTO Treatcost VALUES
