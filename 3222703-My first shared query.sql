@@ -8,9 +8,9 @@ INSERT INTO appointment VALUES
 INSERT INTO appointment VALUES                                        
 ('8110102467081','7101136748073','Full medical',   '2015-10-17','N');                                        
 INSERT INTO appointment VALUES
-('7809124123456','7309185346084','Remove stitches','12-JAN-16','Y');                                        
+('7809124123456','7309185346084','Remove stitches','2016-01-12','Y');                                        
 INSERT INTO appointment VALUES
-('8110102467081','7101136748073','Blood tests',    '12-DEC-15','N');
+('8110102467081','7101136748073','Blood tests',    '2015-12-12','N');
 INSERT INTO appointment VALUES
 ('7609097812034','7309185346084','Consultation',   '12-FEB-16','N');
 INSERT INTO appointment VALUES                                                                   
