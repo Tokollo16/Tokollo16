@@ -73,7 +73,7 @@ INSERT INTO PRESCRIBED VALUES
 INSERT INTO patientmedicine VALUES
 ('7911020534084','2016-01-05','AMO50');                                                                       
 INSERT INTO patientmedicine VALUES
-('7609097812034','13-JAN-16','ULTRA');                                                                       
+('7609097812034','13-2016-01','ULTRA');                                                                       
 INSERT INTO patientmedicine VALUES
 ('7809124123456','25-FEB-16','IMOD2');
 INSERT INTO patientmedicine VALUES
@@ -81,9 +81,9 @@ INSERT INTO patientmedicine VALUES
 INSERT INTO patientmedicine VALUES
 ('7809124123456','25-FEB-16','PROBI');
 INSERT INTO patientmedicine VALUES
-('7609097812034','13-JAN-16','CAT50');
+('7609097812034','13-2016-01','CAT50');
 INSERT INTO patientmedicine VALUES
-('7609097812034','13-JAN-16','DEGOR');
+('7609097812034','13-2016-01','DEGOR');
 
 /* ######################################################### */
 INSERT INTO CONTRA VALUES
@@ -123,7 +123,7 @@ insert into payments values
 insert into payments values
 ('6806035034074','2016-02-14','MEDFUND','BANK TRANSFER',NULL,        '000-213',    250);
 insert into payments values
-('6806035034074','02016-03-01','PRIVATE','CHEQUE',      '244',        '000-213',    250);
+('6806035034074','2016-03-01','PRIVATE','CHEQUE',      '244',        '000-213',    250);
 insert into payments values
 ('6806035034074','2015-08-19','PRIVATE','CHEQUE',      '275',        '000-213',    325);
 insert into payments values   
