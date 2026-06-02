@@ -1,4 +1,4 @@
-/* ######################################################### */
+/* ######################################################### 
 INSERT INTO appointment VALUES
 ('8106070534083','7309185346084','Full medical',   '2016-01-05','N');
 INSERT INTO appointment VALUES                                        
@@ -21,7 +21,7 @@ INSERT INTO appointment VALUES
 ('7809124123456','5302140156083','Consultation',   '2015-11-11','N');
 INSERT INTO appointment VALUES
 ('9001085607084','7602213456112','Remove stitches','2016-02-12','Y');
-
+*/
 /* ######################################################### */
 INSERT INTO TREATMENT VALUES
 ('FM001','FULL MEDICAL');
