@@ -103,7 +103,7 @@ INSERT INTO patienttreatment VALUES
 INSERT INTO patienttreatment VALUES
 ('STRMV','7911020534084','2016-01-05','5302140156083');
 INSERT INTO patienttreatment VALUES
-('CSTTN','7503305057803','13-JAN-2016','5302140156083');
+('CSTTN','7503305057803','2016-01-13','5302140156083');
 
 /* #########################################################                            */
 /* respaccount    paydate     method    paytype        chequenumber  banknumber  amount */
