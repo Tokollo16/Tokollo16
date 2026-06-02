@@ -3,7 +3,7 @@ ALTER TABLE patientvist MODIFY COLUMN visitdate DATE_FORMAT('%d-%m-%y');
 /* patientid,     comments,                                           visitdate,  diagnosis */
 /* ---------------------------------------------------------------------------------------- */
 INSERT INTO PATIENTVISIT VALUES
-('7911020534084','FEVER,SORE THROAT, PULSE 85, BODY ACHES AND PAINS','05-JAN-16','FLUE');                                                                                      
+('7911020534084','FEVER,SORE THROAT, PULSE 85, BODY ACHES AND PAINS','2016-01-0505-JAN-16','FLUE');                                                                                      
 INSERT INTO PATIENTvisit VALUES                                                                                                    
 ('7609097812034','FEVER, RUNNY NOSE',                                '13-JAN-16','UPPER AIRWAYS INFECTION');
 INSERT INTO PATIENTVISIT VALUES
