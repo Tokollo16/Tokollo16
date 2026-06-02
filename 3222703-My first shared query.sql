@@ -93,9 +93,9 @@ INSERT INTO CONTRA VALUES
 /* treatid, patientid,    treatmentdate,doctorid             */
 /* --------------------------------------------------------- */
 INSERT INTO patienttreatment VALUES
-('FM001','7911020534084','05-JAN-16','5302140156083'); 
+('FM001','7911020534084','05-JAN-2016-01-05','5302140156083'); 
 INSERT INTO patienttreatment VALUES
-('CSTTN','8106070534083','13-JAN-16','7309185346084');
+('CSTTN','8106070534083','13-JAN-2016-','7309185346084');
 INSERT INTO patienttreatment VALUES
 ('IVN40','7911020534084','05-JAN-16','5302140156083');
 INSERT INTO patienttreatment VALUES
