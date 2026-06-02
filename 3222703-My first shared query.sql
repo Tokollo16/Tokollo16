@@ -1,1 +1,1 @@
-schema doctor;
+describe doctor;
