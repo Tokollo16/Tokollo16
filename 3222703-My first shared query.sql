@@ -121,7 +121,7 @@ insert into payments values
 insert into payments values
 ('7412087432082','2016-02-17','MEDFUND','BANK TRANSFER',NULL,        '000-213',    450);
 insert into payments values
-('6806035034074','14-FEB2016','MEDFUND','BANK TRANSFER',NULL,        '000-213',    250);
+('6806035034074','2016-02-14','MEDFUND','BANK TRANSFER',NULL,        '000-213',    250);
 insert into payments values
 ('6806035034074','01-MAR-16','PRIVATE','CHEQUE',      '244',        '000-213',    250);
 insert into payments values
