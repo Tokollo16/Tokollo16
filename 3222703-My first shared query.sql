@@ -1,1 +1,1 @@
-commit;
+schema doctor;
