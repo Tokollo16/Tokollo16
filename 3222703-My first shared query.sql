@@ -35,9 +35,9 @@ INSERT INTO Treatcost VALUES
 INSERT INTO Treatcost VALUES
 ('STRMV','2015-12-01',150,100);
 INSERT INTO Treatcost VALUES                                                                 
-('STTHS','01-JAN-2016-',225,175);
+('STTHS','2016-01-01',225,175);
 INSERT INTO Treatcost VALUES                                                                 
-('IVN40','01-JAN-16',300,200);
+('IVN40','01-JAN-2016',300,200);
 INSERT INTO Treatcost VALUES                                                                 
 ('STRMV','01-JAN-16',200,150);                                                                 
 INSERT INTO Treatcost VALUES                                                                 
