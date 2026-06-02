@@ -1,4 +1,4 @@
-ALTER TABLE patientvist MODIFY COLUMN visitdate DATE_FORMAT('-%y')
+ALTER TABLE patientvist MODIFY COLUMN visitdate DATE_FORMAT('%-%m-%y')
 /* #########################################################                                */
 /* patientid,     comments,                                           visitdate,  diagnosis */
 /* ---------------------------------------------------------------------------------------- */
