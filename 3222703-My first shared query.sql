@@ -125,6 +125,6 @@ insert into payments values
 insert into payments values
 ('6806035034074','01-MAR-16','PRIVATE','CHEQUE',      '244',        '000-213',    250);
 insert into payments values
-('6806035034074','19-AUG-15','PRIVATE','CHEQUE',      '275',        '000-213',    325);
+('6806035034074','19-2015-08','PRIVATE','CHEQUE',      '275',        '000-213',    325);
 insert into payments values   
-('3806070156084','14-AUG-15','PRIVATE','CASH',         null,         null,        350);
+('3806070156084','14-2015-08','PRIVATE','CASH',         null,         null,        350);
