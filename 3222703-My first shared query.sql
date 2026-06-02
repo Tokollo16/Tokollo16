@@ -71,7 +71,7 @@ INSERT INTO PRESCRIBED VALUES
 
 /* ######################################################### */
 INSERT INTO patientmedicine VALUES
-('7911020534084','05-JAN-16','AMO50');                                                                       
+('7911020534084','2016-01-','AMO50');                                                                       
 INSERT INTO patientmedicine VALUES
 ('7609097812034','13-JAN-16','ULTRA');                                                                       
 INSERT INTO patientmedicine VALUES
@@ -93,15 +93,15 @@ INSERT INTO CONTRA VALUES
 /* treatid, patientid,    treatmentdate,doctorid             */
 /* --------------------------------------------------------- */
 INSERT INTO patienttreatment VALUES
-('FM001','7911020534084','05-JAN-2016-01-05','5302140156083'); 
+('FM001','7911020534084','2020-01-16-01-05','5302140156083'); 
 INSERT INTO patienttreatment VALUES
 ('CSTTN','8106070534083','13-JAN-2016-01-13','7309185346084');
 INSERT INTO patienttreatment VALUES
-('IVN40','7911020534084','05-JAN-16','5302140156083');
+('IVN40','7911020534084','2016-01-','5302140156083');
 INSERT INTO patienttreatment VALUES
 ('CSTTN','7609097812034','13-FEB-16','5302140156083'); 
 INSERT INTO patienttreatment VALUES
-('STRMV','7911020534084','05-JAN-16','5302140156083');
+('STRMV','7911020534084','2016-01-','5302140156083');
 INSERT INTO patienttreatment VALUES
 ('CSTTN','7503305057803','13-JAN-16','5302140156083');
 
