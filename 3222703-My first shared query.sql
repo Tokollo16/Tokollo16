@@ -1,4 +1,4 @@
-ALTER TABLE patientvist MODIFY COLUMN visitdate DATE_FORMAT('%d-%m-%y');
+#ALTER TABLE patientvist MODIFY COLUMN visitdate DATE_FORMAT('%d-%m-%y');
 /* #########################################################                                */
 /* patientid,     comments,                                           visitdate,  diagnosis */
 /* ---------------------------------------------------------------------------------------- */
@@ -23,7 +23,7 @@ INSERT INTO PATIENTVISIT VALUES
 INSERT INTO PATIENTVISIT VALUES                                                                   
 ('8110102467081','CHEST PAIN, FATIQUE, NIGHT SWEAT',                 '2016-02-21','POSSIBLE STROKE ');
 INSERT INTO PATIENTVISIT VALUES
-('7809124123456','RUNNING STOMACH',                                  '2016-01-25','DIAREE');
+('7809124123456','RUNNING STOMACH',                                  '2016-02-25','DIAREE');
 /* ######################################################### */
 INSERT INTO PATIENTHISTORY VALUES
 ('7911020534084','TONSI','05-JAN-16');                                                                       
