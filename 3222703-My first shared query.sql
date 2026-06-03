@@ -64,5 +64,5 @@ GROUP BY p.lastname, p.firstname, a.patientid
 HAVING COUNT(a.cancelled = 'N') > 2;
 
 select CONCAT(RPAD(pa.allergy, 13, '-'), '>') AS Allergy,
-COUNT(treatid) AS 'Treaments Linked' 
+COUNT(pt.treatid) AS 'Treaments Linked' 
 FROM patientallergy pa;
