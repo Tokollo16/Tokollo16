@@ -43,6 +43,6 @@ ORDER BY Total_Payment DESC;
 SELECT
     p.patientid AS 'Patient ID',
     CONCAT(p.firstname || ' ' || p.lastname) AS 'Patient Name',
-    r.empname AS 'Responsible Party',
-    CONCAT(r.address1 || ' ' || r.address2) AS 'Account City'
+    r.empname AS 'Responsible Party'
+    r.address1 || ' ' || r.address2 AS 'Account City'
 FROM patient p, respaccount r;
