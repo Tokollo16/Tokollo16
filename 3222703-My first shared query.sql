@@ -37,3 +37,9 @@ FROM respaccount r, payments p
 WHERE r.idnumber = p.respaccount
 GROUP BY r.idnumber, r.lastname
 ORDER BY Total_Payment DESC;
+
+
+SELECT
+    p.patientid AS 'Patient ID'
+    CONCAT(p.firstname , ' '  p.lastname) AS 'Patient Name'
+FROM patient p, respaccount r;
