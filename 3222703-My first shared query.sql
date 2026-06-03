@@ -21,4 +21,4 @@ SELECT
 FROM respaccount r
 JOIN payments p ON r.idnumber = p.respaccount
 GROUP BY r.idnumber, r.lastname
-ORDER BY Total_Payment DEC;
+ORDER BY Total_Payment DESC;
