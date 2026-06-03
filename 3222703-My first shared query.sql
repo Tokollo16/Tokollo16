@@ -67,4 +67,4 @@ SELECT
 CONCAT(RPAD(pa.allergy, 13, '-'), '>') AS Allergy,
 COUNT(pt.treatid) AS 'Treaments Linked' 
 FROM patientallergy pa, patienttreatment pt
-GROUP BY pa.allergy, treatment;
+GROUP BY pa.allergy, treatmentdate;
