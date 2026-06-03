@@ -68,5 +68,6 @@ CONCAT(RPAD(al.allergy, 13, '-'), '>') AS Allergy,
 RPAD(CAST(COUNT(pt.treatid) AS CHAR), 20, ' ') AS 'Treaments Linked',
 treatmentdate AS 'Treatment Date' 
 FROM patientallergy pa, patienttreatment pt, allergylookup al
-WHERE pa.allerg
+WHERE pa.allergy = al.allergy
+
 GROUP BY al.allergy, treatmentdate;
