@@ -62,3 +62,5 @@ WHERE p.patientid = a.patientid
 AND cancelled NOT IN ('Y')
 GROUP BY p.lastname, p.firstname, a.patientid
 HAVING COUNT(a.cancelled = 'N') > 2;
+
+select * from allergy;
