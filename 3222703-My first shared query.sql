@@ -63,4 +63,4 @@ AND cancelled NOT IN ('Y')
 GROUP BY p.lastname, p.firstname, a.patientid
 HAVING COUNT(a.cancelled = 'N') > 2;
 
-select LPAD(allergy, 13, '*') from patientallergy;
+select RPAD(allergy, 13, '-') from patientallergy;
