@@ -6,3 +6,9 @@ SELECT
 FROM respaccount
 WHERE substr(lastname, -1) = 'i'
 ORDER BY lastname;
+
+
+SELECT
+    idnumber AS ClCode,
+    lastname AS Surname
+FROM respaccount;
