@@ -43,3 +43,8 @@ SELECT
     p.patientid AS 'Patient ID'
     CONCAT(p.firstname || ' ' || p.lastname) AS 'Patient Name'
 FROM patient p, respaccount r;
+
+SELECT
+    p.patientid AS 'Patient ID',
+    CONCAT(p.firstname, ' ', p.lastname) AS 'Patient Name'
+FROM patient p, respaccount r;
