@@ -68,4 +68,4 @@ CONCAT(RPAD(al.allergy, 13, '-'), '>') AS Allergy,
 RPAD(CAST(COUNT(pt.treatid) AS CHAR), 20, ' ') AS 'Treaments Linked',
 treatmentdate AS 'Treatment Date' 
 FROM patientallergy pa, patienttreatment pt, allergylookup al
-GROUP BY pa.allergy, treatmentdate;
+GROUP BY al.allergy, treatmentdate;
