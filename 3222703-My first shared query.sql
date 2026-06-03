@@ -17,6 +17,6 @@ FROM respaccount;
 SELECT
     r.idnumber AS ClCode,
     r.lastname AS Surname
-    COUNT(p.respaccount) AS TOTAL
+    COUNT(p.respaccount) AS Total_Payment
 FROM respaccount r
 JOIN payments p ON r.idnumber = p.respaccount;
