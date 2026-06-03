@@ -54,4 +54,4 @@ SELECT
     r.empname AS 'Responsible Party',
     CONCAT(r.address1, ' ', r.address2) AS 'Account City'
 FROM patient p, respaccount r
-WHERe r.idnumber = p.patientid;
+WHERe p.patientid = r.idnumber;
