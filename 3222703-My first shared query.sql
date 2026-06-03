@@ -63,4 +63,5 @@ AND cancelled NOT IN ('Y')
 GROUP BY p.lastname, p.firstname, a.patientid
 HAVING COUNT(a.cancelled = 'N') > 2;
 
-select CONCAT(RPAD(allergy, 13, '-'), '>') AS Allergy from patientallergy;
+select CONCAT(RPAD(allergy, 13, '-'), '>') AS Allergy 
+FROM patientallergy pa;
