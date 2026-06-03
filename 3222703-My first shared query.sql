@@ -57,4 +57,4 @@ WHERE r.idnumber = p.resp;
 
 SELECT
     CONCAT(r.lastname, ', ', SUBSTR(r.firstname, 1))
-FROM respaccount;
+FROM respaccount r;
