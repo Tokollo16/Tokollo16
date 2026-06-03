@@ -61,4 +61,4 @@ FROM patient p, appointment a
 WHERE p.patientid = a.patientid
 AND cancelled NOT IN ('Y')
 GROUP BY p.lastname, p.firstname, a.patientid
-COUNT(a.cancelled = 'N') > 2;
+HAVING COUNT(a.cancelled = 'N') > 2;
