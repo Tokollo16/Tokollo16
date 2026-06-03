@@ -64,9 +64,9 @@ GROUP BY p.lastname, p.firstname, a.patientid
 HAVING COUNT(a.cancelled = 'N') > 2;
 
 SELECT 
-CONCAT(RPAD(al.allergy, 13, '-'), '>') AS Allergy,
-RPAD(CAST(COUNT(pt.treatid) AS CHAR), 20, ' ') AS 'Treaments Linked',
-treatmentdate AS 'Treatment Date' 
+    CONCAT(RPAD(al.allergy, 13, '-'), '>') AS Allergy,
+    RPAD(CAST(COUNT(pt.treatid) AS CHAR), 20, ' ') AS 'Treaments Linked',
+    treatmentdate AS 'Treatment Date' 
 FROM patientallergy pa, patienttreatment pt, allergylookup al
 WHERE pa.allergy = al.allergy
 AND pa.patientid = pt.patientid
