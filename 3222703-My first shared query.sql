@@ -71,4 +71,4 @@ FROM patientallergy pa, patienttreatment pt, allergylookup al
 WHERE pa.allergy = al.allergy
 AND pa.patientid = pt.patientid
 GROUP BY al.allergy, treatmentdate
-ORDER BY A;
+ORDER BY al.allergy;
