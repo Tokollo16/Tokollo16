@@ -39,12 +39,9 @@ GROUP BY r.idnumber, r.lastname
 ORDER BY Total_Payment DESC;
 
 
-SELECT
-    p.patientid AS 'Patient ID',
-    CONCAT(p.firstname, ' ', p.lastname) AS 'Patient Name'
-FROM patient p, respaccount r;
 
 SELECT
     p.patientid AS 'Patient ID',
-    CONCAT(p.firstname, ' ', p.lastname) AS 'Patient Name'
+    CONCAT(p.firstname || ' ' || p.lastname) AS 'Patient Name',
+    r.empname AS 'Responsible Party'
 FROM patient p, respaccount r;
