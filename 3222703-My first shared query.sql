@@ -56,5 +56,5 @@ FROM patient p, respaccount r
 WHERE r.idnumber = p.resp;
 
 SELECT
-    CONCAT(r.lastname, ', ', SUBSTR(r.firstname, 1, 1))
-FROM respaccount r;
+    CONCAT(r.lastname, ', ', SUBSTR(r.firstname, 1, 1), '('a.patientid')')
+FROM respaccount r, appointment a;
