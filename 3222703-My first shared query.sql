@@ -18,4 +18,4 @@ SELECT
     r.idnumber AS ClCode,
     r.lastname AS Surname
 FROM respaccount r
-JOIN payment p ON r.idnumber = p.respaccount;
+JOIN payments p ON r.idnumber = p.respaccount;
