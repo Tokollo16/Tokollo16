@@ -54,3 +54,7 @@ SELECT
     CONCAT(r.address1, ' ', r.address2) AS 'Account City'
 FROM patient p, respaccount r
 WHERE r.idnumber = p.resp;
+
+SELECT
+    CONCAT(r.lastname, ', ', SUBSTR(r.firstname, 1))
+FROM respaccount;
