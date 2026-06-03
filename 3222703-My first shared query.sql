@@ -20,4 +20,5 @@ SELECT
     COUNT(p.respaccount) AS Total_Payment
 FROM respaccount r
 JOIN payments p ON r.idnumber = p.respaccount
-GROUP BY r.idnumber, r.lastname;
+GROUP BY r.idnumber, r.lastname
+ORDER BY Total_Payment;
