@@ -44,7 +44,7 @@ SELECT
     p.patientid AS 'Patient ID',
     CONCAT(p.firstname || ' ' || p.lastname) AS 'Patient Name',
     r.empname AS 'Responsible Party',
-    r.address1 || ' ' || r.address2 AS 'Account City'
+    r.address1 AS 'Account City'
 FROM patient p, respaccount r;
 
 SELECT
