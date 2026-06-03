@@ -63,4 +63,4 @@ AND cancelled NOT IN ('Y')
 GROUP BY p.lastname, p.firstname, a.patientid
 HAVING COUNT(a.cancelled = 'N') > 2;
 
-select * from patientallergy;
+select INITCAP(aller) from patientallergy;
