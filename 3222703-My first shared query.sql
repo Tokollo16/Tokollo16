@@ -58,5 +58,5 @@ WHERE r.idnumber = p.resp;
 SELECT
     CONCAT(p.lastname, ', ', SUBSTR(p.firstname, 1, 1), '(', a.patientid, ')') AS 'Cancelled appointments'
 FROM patient p, appointment a
-WHERE p.patienid = a.patienid;
+WHERE p.patientid = a.patientid;
 #COUNT(a.cancelled = 'N') > 2;
