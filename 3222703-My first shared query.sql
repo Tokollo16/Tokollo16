@@ -72,3 +72,19 @@ WHERE pa.allergy = al.allergy
 AND pa.patientid = pt.patientid
 GROUP BY al.allergy, treatmentdate
 ORDER BY al.allergy;
+
+SELECT 
+    d.doctorid,
+    d.doctorname,
+    COUNT(pt.treatid) AS Treatments,
+    SUM(tc.cost) AS Total_Revenue
+FROM
+    doctor d, patienttreatment pt, treatcost tc
+WHERE
+    d.doctorid = pt.doctorid
+AND
+    pt.treatid = tc.treatid
+GROUP BY
+    d.doctorid, d.doctorname
+ORDER BY
+    SUM(tc.cost) DESC;
