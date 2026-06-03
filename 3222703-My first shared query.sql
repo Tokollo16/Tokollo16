@@ -56,6 +56,6 @@ FROM patient p, respaccount r
 WHERE r.idnumber = p.resp;
 
 SELECT
-    CONCAT(r.lastname, ', ', SUBSTR(r.firstname, 1, 1), '('a.patientid')'),
+    CONCAT(r.lastname, ', ', SUBSTR(r.firstname, 1, 1), '(', a.patientid, ')')
 FROM respaccount r, appointment a
 WHERE a.cancelled > 2;
