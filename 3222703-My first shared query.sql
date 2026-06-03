@@ -63,6 +63,14 @@ AND cancelled NOT IN ('Y')
 GROUP BY p.lastname, p.firstname, a.patientid
 HAVING COUNT(a.cancelled = 'N') > 2;
 
-select CONCAT(RPAD(pa.allergy, 13, '-'), '>') AS Allergy,
-COUNT(treatid) AS 'Treaments Linked' 
-FROM patientallergy pa;
+SELECT 
+RPAD(INITCAP(al.allergy), 13, '-')
+|| '>' "Allergy",
+RPAD(TO_CHAR(COUNT(pt.treatid)), 20)
+ "Treatments Linked",treatmentdate
+"Treatment Date"
+FROM patientallergy pa, allergylookup al, patienttreatment pt
+WHERE pa.allergy = al.allergy
+AND pa.patientid = pt.patientid
+GROUP BY al.allergy,treatmentdate
+ORDER BY al.allergy;
